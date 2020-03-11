@@ -1,0 +1,6 @@
+framework module TALRTCMedia {
+  umbrella header "TALRTCMedia.h"
+
+  export *
+  module * { export * }
+}

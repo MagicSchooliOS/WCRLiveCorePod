@@ -1,0 +1,6 @@
+framework module WCRLiveCore {
+  umbrella header "WCRLiveCore.h"
+
+  export *
+  module * { export * }
+}
