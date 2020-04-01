@@ -37,4 +37,9 @@
  是否使用docMode判断权限
  */
 @property (nonatomic, assign, getter=isUseDocMode) BOOL useDocMode;
+
+/**
+ * 是否是口令课，口令课和非口令课内部会有微小的差异
+ */
+@property (nonatomic, assign, getter=isCodeClass) BOOL codeClass;
 @end

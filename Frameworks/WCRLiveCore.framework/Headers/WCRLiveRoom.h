@@ -28,6 +28,7 @@
 #import <WCRLiveCore/WCRDocumentVM+Image.h>
 #import <WCRLiveCore/WCRDocumentVM+Whiteboard.h>
 #import <WCRLiveCore/WCRDocumentVM+QuestionBank.h>
+#import <WCRLiveCore/WCRDocumentVM+Interaction.h>
 #import <WCRLiveCore/WCRMessageVM.h>
 #import <WCRLiveCore/WCRResourceManager.h>
 #import <WCRLiveCore/WCRChatChannel.h>

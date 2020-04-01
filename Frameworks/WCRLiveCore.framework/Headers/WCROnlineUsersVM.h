@@ -57,6 +57,11 @@
 @property(nonatomic, weak) id<WCROnlineUserVMDelegate> delegate;
 
 /**
+ 在线人数
+ */
+@property(nonatomic, assign) NSInteger onlineCount;
+
+/**
  房间内的所有在线用户，无序数组
  */
 @property(nonatomic, strong, readonly) NSArray<WCROnlineUserModel*>* onlineUsers;

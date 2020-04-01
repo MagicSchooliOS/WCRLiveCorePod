@@ -60,6 +60,13 @@ typedef NS_ENUM(NSUInteger, WCRStreamDeviceStatus) {
     WCRStreamDeviceStatusMax
 };
 
+typedef NS_ENUM(NSUInteger, WCRStreamDeviceStatusChangeReason) {
+    WCRStreamDeviceStatusChangeReasonNone = 0,
+    WCRStreamDeviceStatusChangeReasonTearcherAuthorize,
+    WCRStreamDeviceStatusChangeReasonSystemAuthorize,
+    WCRStreamDeviceStatusChangeReasonMax
+};
+
 /**
  视频播放类型
 

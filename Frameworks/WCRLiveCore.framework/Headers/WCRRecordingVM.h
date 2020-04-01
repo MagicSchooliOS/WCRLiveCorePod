@@ -60,14 +60,14 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param videoStatus 变化后的状态
  */
-- (void)onUpdateVideoStatus:(WCRStreamDeviceStatus)videoStatus;
+- (void)onUpdateVideoStatus:(WCRStreamDeviceStatus)videoStatus reason:(WCRStreamDeviceStatusChangeReason)reason;
 
 /**
  某一用户音频状态变化
  
  @param audioStatus 变化后的状态
  */
-- (void)onUpdateAudioStatus:(WCRStreamDeviceStatus)audioStatus;
+- (void)onUpdateAudioStatus:(WCRStreamDeviceStatus)audioStatus reason:(WCRStreamDeviceStatusChangeReason)reason;
 
 /**
  视频播放模式被改变
